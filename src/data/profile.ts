@@ -46,31 +46,43 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Your Name',
-  firstName: 'Your Name',
-  handle: '@yourhandle',
-  role: 'PLACEHOLDER - your title',
+  name: 'Reamar Pancho',
+  firstName: 'Reamar',
+  handle: '@reamarpancho',
+  role: 'Customer Support / Ticketing Operations / Virtual Assistance',
   avatarSrc: '/avatar.svg',
-  verifiedLabel: 'PLACEHOLDER - what the tick means (e.g. a certification)',
-  email: 'you@example.com',
-  location: 'PLACEHOLDER - your city or timezone',
-  // Pick any icon from https://phosphoricons.com and import it above.
+  verifiedLabel: 'Reamar Pancho',
+  email: panchoreamar@gmail.com,
+  location: 'Philippines · GMT+8',
   stats: [
-    { value: '0 yrs', label: 'PLACEHOLDER', Icon: Briefcase },
-    { value: '#000', label: 'PLACEHOLDER', Icon: SealCheck },
-    { value: 'GMT+0', label: 'PLACEHOLDER', Icon: Clock },
+    { value: '4+ years', label: 'Customer Support', Icon: Briefcase },
+    { value: '2 years', label: 'Ticketing Operations', Icon: SealCheck },
+    { value: 'GMT+8', label: 'Philippines', Icon: Clock },
   ],
-  // The intro types this line, then flies it into the Home headline.
-  // Keep it short: two halves, 5-8 words total.
-  displayName: { line1: 'Your headline here.', line2: 'Keep it short.' },
+  displayName: {
+    line1: 'Support that feels human.',
+    line2: 'Operations that run smoothly.',
+  },
   hero: {
-    body: 'PLACEHOLDER - one line on what you do and who you do it for.',
+    body: '6+ years on the front line, helping customers and keeping operations running smoothly.',
     portraitSrc: '/avatar.svg',
-    portraitAlt: 'Portrait placeholder',
+    portraitAlt: 'Portrait of Reamar Pancho',
   },
   socials: [
-    { label: 'Facebook profile', href: '#', iconPath: '/icons/facebook.svg' },
-    { label: 'LinkedIn profile', href: '#', iconPath: '/icons/linkedin.svg' },
-    { label: 'Discord profile', href: '#', iconPath: '/icons/discord.svg' },
+    {
+      label: 'WhatsApp',
+      href: 'https://wa.me/639702922315',
+      iconPath: '/icons/whatsapp.svg',
+    },
+    {
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/reamar-pancho-935966284',
+      iconPath: '/icons/linkedin.svg',
+    },
+    {
+      label: 'Discord',
+      href: 'https://discord.com/users/767645475624321047',
+      iconPath: '/icons/discord.svg',
+    },
   ],
 }
