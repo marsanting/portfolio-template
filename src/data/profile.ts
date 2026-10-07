@@ -52,7 +52,7 @@ export const profile: Profile = {
   role: 'Customer Support / Ticketing Operations / Virtual Assistance',
   avatarSrc: '/avatar.svg',
   verifiedLabel: 'Reamar Pancho',
-  email: panchoreamar@gmail.com,
+  email: 'panchoreamar@gmail.com',
   location: 'Philippines · GMT+8',
   stats: [
     { value: '4+ years', label: 'Customer Support', Icon: Briefcase },
