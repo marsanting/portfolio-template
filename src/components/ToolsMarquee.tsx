@@ -39,9 +39,6 @@ type Tool = {
 
 export const tools: Tool[] = [
   { name: 'Jancy',                iconPath: '/icons/jancy browser.avif'},
-  { name: 'Claude Code',          iconPath: '/icons/claude-code-logo.png' },
-  { name: 'GoHighLevel',          iconPath: '/icons/gohighlevel.png' },
-  { name: 'Google Workspace',     iconPath: '/icons/googleworkspace.svg' },
   { name: 'Zendesk',              iconPath: '/icons/zendesk.svg',         color: '#03363D' },
   { name: 'Slack',                iconPath: '/icons/slack.svg',           color: '#611F69' },
 ]
