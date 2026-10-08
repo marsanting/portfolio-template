@@ -50,7 +50,7 @@ export const profile: Profile = {
   firstName: 'Reamar',
   handle: '@reamarpancho',
   role: 'Customer Support / Ticketing Operations / Virtual Assistance',
-  avatarSrc: '/avatar.svg',
+  avatarSrc: '/rpavatar.png',
   verifiedLabel: 'Reamar Pancho',
   email: 'panchoreamar@gmail.com',
   location: 'Philippines · GMT+8',
@@ -65,7 +65,7 @@ export const profile: Profile = {
   },
   hero: {
     body: '6+ years on the front line, helping customers and keeping operations running smoothly.',
-    portraitSrc: '/avatar.svg',
+    portraitSrc: '/rpavatar.png',
     portraitAlt: 'Portrait of Reamar Pancho',
   },
   socials: [
