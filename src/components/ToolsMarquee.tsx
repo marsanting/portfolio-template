@@ -38,9 +38,15 @@ type Tool = {
 }
 
 export const tools: Tool[] = [
-  { name: 'Jancy',                iconPath: '/icons/jancy browser.avif'},
+  { name: 'Jancy Browser',        iconPath: '/icons/jancy browser.avif' },
   { name: 'Zendesk',              iconPath: '/icons/zendesk.svg',         color: '#03363D' },
   { name: 'Slack',                iconPath: '/icons/slack.svg',           color: '#611F69' },
+  { name: 'Shopify',              iconPath: '/icons/shopify.png' },
+  { name: 'Teams',                iconPath: '/icons/teams.png' },
+  { name: 'Amazon',               iconPath: '/icons/amazon.webp' },
+  { name: 'Discord',              iconPath: '/icons/dicord_PNG7.png' },
+  { name: 'Zoom',                 iconPath: '/icons/Zoom-logo.png' },
+  
 ]
 
 export default function ToolsMarquee() {
