@@ -44,7 +44,7 @@ export const tools: Tool[] = [
   { name: 'Shopify',              iconPath: '/icons/shopify.png' },
   { name: 'Teams',                iconPath: '/icons/teams.png' },
   { name: 'Amazon',               iconPath: '/icons/amazon.webp' },
-  { name: 'Discord',              iconPath: '/icons/dicord_PNG7.png' },
+  { name: 'Discord',              iconPath: '/icons/discord_PNG7.png' },
   { name: 'Zoom',                 iconPath: '/icons/Zoom-logo.png' },
   
 ]
