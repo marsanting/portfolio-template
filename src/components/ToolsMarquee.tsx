@@ -38,7 +38,7 @@ type Tool = {
 }
 
 export const tools: Tool[] = [
-  { name: 'Jancy',                iconPath: '/icons/jancy.avif'},
+  { name: 'Jancy',                iconPath: '/icons/jancy browser.avif'},
   { name: 'Claude Code',          iconPath: '/icons/claude-code-logo.png' },
   { name: 'GoHighLevel',          iconPath: '/icons/gohighlevel.png' },
   { name: 'Google Workspace',     iconPath: '/icons/googleworkspace.svg' },
