@@ -60,7 +60,7 @@ export const profile: Profile = {
     { value: 'GMT+8', label: 'Philippines', Icon: Clock },
   ],
   displayName: {
-    line1: 'Humanly support.',
+    line1: 'Humanely support.',
     line2: 'Frictionless operations.',
   },
   hero: {
